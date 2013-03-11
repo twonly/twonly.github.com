@@ -23,11 +23,11 @@ tagline:
 
 - - -
 ## IT Skill
-*   Language
+*###   Language
     *   C/C++
     *   php
     *   python
-*   Interest and 
+*###   Interest and 
 
 - - -
 
