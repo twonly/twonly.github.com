@@ -12,7 +12,7 @@ tagline:
 
 ## Personal Information
 
-![Email]({{ BASE_PATH }}/assets/images/email.png)
+![Email]({{ BASE_PATH }}/assets/images/email.jpg)
 
 In ```_config.yml``` remember to specify your own data:
     
