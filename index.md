@@ -7,7 +7,7 @@ tagline:
 
 ## Personal Information
 
-### &emsp;Yu Jiongyu
+#### &emsp;Yu Jiongyu
 >#### Mobile  `18680584004`
 >#### E-Mail  ![Email](http://services.nexodyne.com/email/icon/EgKqVgkYtA%3D%3D/jpSw7ZI%3D/R01haWw%3D/0/image.png)
 >#### Github @ [twonly](http://www.github.com/github "Github Link")  
@@ -21,15 +21,15 @@ tagline:
 >####   2011.2 - 2011.7 &emsp; NSYSU@Taiwan &emsp; Information Engineering
 >####   2011.2 - 2011.7 &emsp; SYSU &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;Computer Science
 
-**English Skill: &emsp; CET-6 552**
+*   **English Skill: &emsp; CET-6 552**
 
 - - -
 ## IT Skill
-*   Language
+*   **Language**
     *   C/C++
     *   php
     *   python
-*   Research Interest 
+*   **Research Interest** 
     *   Distributed System
     *   Nosql
     *   Linux/Unix
