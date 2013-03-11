@@ -21,6 +21,9 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 >   return shell_exec("echo $input | $markdown_script");
 >end
 
+This is normal block
+    This is code block return shell_exec("echo $input | $markdown_script");
+
 In `_config.yml` remember to specify your own data:
     
     title : Yu's Blog =)
