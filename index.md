@@ -5,7 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 
-#### *Douban* @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/ "Douban Link")  
+#### Douban @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/ "Douban Link")  
   
 #### Weibo @ [twonly](http://www.weibo.com/twonly "Weibo Link")
   
