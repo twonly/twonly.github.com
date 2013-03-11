@@ -8,12 +8,11 @@ tagline:
 #### Douban @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/ "Douban Link")  
   
 #### Weibo @ [twonly](http://www.weibo.com/twonly "Weibo Link")
-  
-## Update Author Attributes
-
 - - -
 
-In `_config.yml` remember to specify your own data:
+## Personal Information
+
+In ```_config.yml``` remember to specify your own data:
     
     title : Yu's Blog =)
     
