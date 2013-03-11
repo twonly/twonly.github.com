@@ -8,7 +8,7 @@ tagline:
 ## Personal Information
 
 #### &emsp;Yu Jiongyu
->#### Mobile  nbsp;18680584004
+>#### Mobile  &nbsp;18680584004
 >#### E-Mail  ![Email](http://services.nexodyne.com/email/icon/EgKqVgkYtA%3D%3D/jpSw7ZI%3D/R01haWw%3D/0/image.png)
 >#### Github @ [twonly](http://www.github.com/github "Github Link")  
 >#### Douban @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/ "Douban Link")  
@@ -44,10 +44,5 @@ tagline:
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 [dmoosefs]: http://www.ieee.org.hk/apcloudcc/program.html
