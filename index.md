@@ -17,10 +17,9 @@ In ```_config.yml``` remember to specify your own data:
     author :
       name : Name Lastname
       email : blah@email.test
-      github : username
-      twitter : username
-      #### Douban @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/ "Douban Link")  
-      #### Weibo @ [twonly](http://www.weibo.com/twonly "Weibo Link")
+      github : twonly
+#### Douban @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/ "Douban Link")  
+#### Weibo @ [twonly](http://www.weibo.com/twonly "Weibo Link")
 
 The theme should reference these variables whenever needed.
     
