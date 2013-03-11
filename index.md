@@ -5,7 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 
-Douban @ `[xiaowuyi](http://www.douban.com/people/xiaowuyi/)` 
+Douban @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/)  
   
 Weibo @ [twonly](http://www.weibo.com/twonly)
   
@@ -13,6 +13,11 @@ Weibo @ [twonly](http://www.weibo.com/twonly)
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
 ## Update Author Attributes
+>aaa
+>
+>>bbb
+>
+>end
 
 In `_config.yml` remember to specify your own data:
     
