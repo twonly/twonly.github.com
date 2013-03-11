@@ -19,9 +19,9 @@ The theme should reference these variables whenever needed.
 - - -
 
 ## Education Background
->#### 2008.9 - 2012.6  SYSU         Network Engineering
->#### 2011.2 - 2011.7  NSYSU@Taiwan Information Engineering
->#### 2011.2 - 2011.7  SYSU         Computer Science
+>####   2008.9 - 2012.6  SYSU         Network Engineering
+>####   2011.2 - 2011.7  NSYSU@Taiwan Information Engineering
+>   2011.2 - 2011.7  SYSU         Computer Science
 
 This blog contains sample posts which help stage pages and blog data.
 When you don't need the samples anymore just delete the `_posts/core-samples` folder.
