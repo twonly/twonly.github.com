@@ -21,7 +21,7 @@ tagline:
 >####   2011.2 - 2011.7 &emsp; NSYSU@Taiwan &emsp; Information Engineering
 >####   2011.2 - 2011.7 &emsp; SYSU &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;Computer Science
 
-*English Skill: &emsp; CET-6 552*
+**English Skill: &emsp; CET-6 552**
 
 - - -
 ## IT Skill
