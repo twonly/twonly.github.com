@@ -5,25 +5,22 @@ tagline:
 ---
 {% include JB/setup %}
 
-#### Douban @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/ "Douban Link")  
-  
-#### Weibo @ [twonly](http://www.weibo.com/twonly "Weibo Link")
 - - -
 
 ## Personal Information
 
-![Email]({{ BASE_PATH }}/assets/images/email.jpg)
-
 ![Email](http://services.nexodyne.com/email/icon/EgKqVgkYtA%3D%3D/jpSw7ZI%3D/R01haWw%3D/0/image.png)
+  
 In ```_config.yml``` remember to specify your own data:
     
     title : Yu's Blog =)
-    
     author :
       name : Name Lastname
       email : blah@email.test
       github : username
       twitter : username
+      #### Douban @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/ "Douban Link")  
+      #### Weibo @ [twonly](http://www.weibo.com/twonly "Weibo Link")
 
 The theme should reference these variables whenever needed.
     
