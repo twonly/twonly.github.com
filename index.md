@@ -12,6 +12,8 @@ tagline:
 
 ## Personal Information
 
+<img src=/_picture/email.png></img>
+
 In ```_config.yml``` remember to specify your own data:
     
     title : Yu's Blog =)
