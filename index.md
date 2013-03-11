@@ -5,9 +5,9 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Douban@[xiaowuyi](www.douban.com/people/xiaowuyi/)  
-
-Weibo@[twonly](www.weibo.com/twonly)
+Douban@[xiaowuyi](http://www.douban.com/people/xiaowuyi/)  
+  
+Weibo@[twonly](http://www.weibo.com/twonly)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
