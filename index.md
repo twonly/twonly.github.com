@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Hello World!
+title: About Me!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+Douban@[www.douban.com/people/xiaowuyi/](www.douban.com/people/xiaowuyi/)
+Weibo@[www.weibo.com/twonly](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
