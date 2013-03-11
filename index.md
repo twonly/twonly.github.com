@@ -9,12 +9,9 @@ tagline:
 
 ## Personal Information
 
-In ```_config.yml``` remember to specify your own data:
-    
-    title : Yu's Blog =)
-    author :
->#### Mobile 18680584004
->#### E-Mail ![Email](http://services.nexodyne.com/email/icon/EgKqVgkYtA%3D%3D/jpSw7ZI%3D/R01haWw%3D/0/image.png)
+### Yu Jiongyu
+>#### Mobile  18680584004
+>#### E-Mail  ![Email](http://services.nexodyne.com/email/icon/EgKqVgkYtA%3D%3D/jpSw7ZI%3D/R01haWw%3D/0/image.png)
 >#### Github @ [twonly](http://www.github.com/github "Github Link")  
 >#### Douban @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/ "Douban Link")  
 >#### Weibo @ [twonly](http://www.weibo.com/twonly "Weibo Link")
