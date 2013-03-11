@@ -21,9 +21,10 @@ tagline:
 >####   2011.2 - 2011.7 &emsp; NSYSU@Taiwan &emsp; Information Engineering
 >####   2011.2 - 2011.7 &emsp; SYSU &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;Computer Science
 
+- - -
 
 ## Experience
->####  [DMooseFS: Design and Implementation of Distributed Files System with Distributed Metadata Server] (http://www.ieee.org.hk/apcloudcc/program.html)
+>####  [DMooseFS:][dmoosefs] Design and Implementation of Distributed Files System with Distributed Metadata Server 
 
 This blog contains sample posts which help stage pages and blog data.
 When you don't need the samples anymore just delete the `_posts/core-samples` folder.
@@ -43,4 +44,4 @@ Here's a sample "posts list".
 This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
 We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
-
+[dmoosefs]: http://www.ieee.org.hk/apcloudcc/program.html
