@@ -5,11 +5,12 @@ tagline:
 ---
 {% include JB/setup %}
 
-Douban @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/ "Title")  
+Douban @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/ "Douban Link")  
   
-Weibo @ [twonly](http://www.weibo.com/twonly)
+Weibo @ [twonly](http://www.weibo.com/twonly "Weibo Link")
   
-
+[test] [id]
+[id]:   http://www.google.com "title"
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
 ## Update Author Attributes
