@@ -14,7 +14,7 @@ tagline:
 
 ![Email]({{ BASE_PATH }}/assets/images/email.jpg)
 
-![Email](http://www.mailonpix.com/images/ada87e93c7c6f575440728d1e0a84d48.gif)
+![Email](http://services.nexodyne.com/email/icon/EgKqVgkYtA%3D%3D/jpSw7ZI%3D/R01haWw%3D/0/image.png)
 In ```_config.yml``` remember to specify your own data:
     
     title : Yu's Blog =)
