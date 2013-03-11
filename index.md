@@ -24,9 +24,9 @@ tagline:
 - - -
 ## IT Skill
 *   Language
-1.  C/C++
-2.  php
-3.  python
+    *   C/C++
+    *   php
+    *   python
 *   Interest and 
 
 - - -
