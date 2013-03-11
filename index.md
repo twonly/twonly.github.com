@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About Me!
-tagline: Supporting tagline
+title: About Me
+tagline: 
 ---
 {% include JB/setup %}
 
-Douban @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/)  
+Douban @ `[xiaowuyi](http://www.douban.com/people/xiaowuyi/)` 
   
 Weibo @ [twonly](http://www.weibo.com/twonly)
   
