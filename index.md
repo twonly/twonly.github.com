@@ -12,7 +12,7 @@ tagline:
 
 ## Personal Information
 
-<img src=/picture/email.png></img>
+![Email](/_picture/email.png)
 
 In ```_config.yml``` remember to specify your own data:
     
