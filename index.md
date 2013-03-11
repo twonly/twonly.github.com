@@ -14,6 +14,7 @@ tagline:
 
 ![Email]({{ BASE_PATH }}/assets/images/email.jpg)
 
+![Email](http://www.mailonpix.com/images/ada87e93c7c6f575440728d1e0a84d48.gif)
 In ```_config.yml``` remember to specify your own data:
     
     title : Yu's Blog =)
