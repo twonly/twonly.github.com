@@ -9,7 +9,7 @@ Douban @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/)
   
 Weibo @ [twonly](http://www.weibo.com/twonly)
   
-Contace me @ <twonlyu@gmail.com>
+<!-- Contace me @ <twonlyu@gmail.com> -->
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
