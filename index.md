@@ -5,26 +5,13 @@ tagline:
 ---
 {% include JB/setup %}
 
-Douban @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/ "Douban Link")  
+*Douban* @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/ "Douban Link")  
   
 Weibo @ [twonly](http://www.weibo.com/twonly "Weibo Link")
   
-[test] [id]
-[id]:   http://www.google.com "title"
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
 ## Update Author Attributes
-> ## aaa
-> 1.    111
-> 2.    222
->>bbb
->
->   return shell_exec("echo $input | $markdown_script");
->end
+
 - - -
-This is normal block
-  
-    This is code block return shell_exec("echo $input | $markdown_script");
 
 In `_config.yml` remember to specify your own data:
     
