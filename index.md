@@ -13,10 +13,12 @@ Weibo @ [twonly](http://www.weibo.com/twonly)
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
 ## Update Author Attributes
->aaa
->
+> ## aaa
+> 1.    111
+> 2.    222
 >>bbb
 >
+>   return shell_exec("echo $input | $markdown_script");
 >end
 
 In `_config.yml` remember to specify your own data:
