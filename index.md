@@ -23,11 +23,14 @@ tagline:
 
 - - -
 ## IT Skill
-*###   Language
+*   Language
     *   C/C++
     *   php
     *   python
-*###   Interest and 
+*   Research Interest 
+    *   Distributed System
+    *   Nosql
+    *   Linux/Unix
 
 - - -
 
