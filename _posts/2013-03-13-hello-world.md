@@ -1,6 +1,6 @@
 ---
 layour: post
-category: [test, hello]
+categories: [test, hello]
 tagline: :"HELLO"
 tags: [hello]
 ---
