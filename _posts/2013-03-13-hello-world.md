@@ -1,7 +1,8 @@
 ---
 layour: post
-title: Hello World
-#tag: hello
+category: test
+tagline: :"HELLO"
+tags: [hello]
 ---
 {% include JB/setup %}
 
