@@ -1,9 +1,11 @@
 ---
 layour: post
-categories: [test, hello]
+category:  hello
 tagline: :"HELLO"
 tags: [hello]
 ---
 {% include JB/setup %}
 
-##Hello world
+## Hello world
+
+### Hello again
