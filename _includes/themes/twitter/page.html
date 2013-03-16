@@ -8,31 +8,5 @@
   </div>
 </div>
 
-<link rel="stylesheet" type="text/css" href="assets/css/user.css"/>
 
-<div class="back-to" id="toolBackTop">
-    <a title="BackToTop" onclick="window.scrollTo(0,0);return false;" href="#top" class="back-top">回到顶部</a>
-</div>
 
-<script src="assets/js/jquery.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(document).ready(function () {
-        var bt = $('#toolBackTop');
-        var sw = $(document.body)[0].clientWidth;
-
-        var limitsw = (sw - 840) / 2 - 80;
-        if (limitsw > 0){
-                limitsw = parseInt(limitsw);
-                bt.css("right",limitsw);
-        }
-
-        $(window).scroll(function() {
-                var st = $(window).scrollTop();
-                if(st > 30){
-                        bt.show();
-                }else{
-                        bt.hide();
-                }
-        });
-})
-</script>

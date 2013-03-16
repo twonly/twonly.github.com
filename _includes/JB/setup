@@ -1,6 +1,3 @@
-<head>
-<title>asdasd</title>
-</head>
 {% capture jbcache %}
   <!--
   - Dynamically set liquid variables for working with URLs/paths
