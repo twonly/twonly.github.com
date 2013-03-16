@@ -39,10 +39,12 @@ tagline: Yu Jiongyu
 ## Publication
 >####  [DMooseFS:][dmoosefs] Design and Implementation of Distributed Files System with Distributed Metadata Server 
 
+<!--
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+-->
 
 [dmoosefs]: http://www.ieee.org.hk/apcloudcc/program.html
