@@ -26,13 +26,13 @@ tagline: Yu Jiongyu
 - - -
 ## IT Skill
 *   ###**Language**
-    *   C/C++
-    *   php
-    *   python
+    ####*   C/C++
+    ####*   php
+    ####*   python
 *   ###**Research Interest** 
-    *   Distributed System
-    *   Nosql
-    *   Linux/Unix
+    ####*   Distributed System
+    ####*   Nosql
+    ####*   Linux/Unix
 
 - - -
 
