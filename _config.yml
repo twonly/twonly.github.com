@@ -82,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : twonly
+      short_name : caozhengfu
     livefyre :
       site_id : 123
     intensedebate :
