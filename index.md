@@ -9,8 +9,7 @@ tagline: Yu Jiongyu
 
 <!--#### &emsp;Yu Jiongyu-->
 >#### Mobile  &nbsp;18680584004
->#### E-Mail  ![Email](http://services.nexodyne.com/email/icon/EgKqVgkYtA%3D%3D/jpSw7ZI%3D/R01haWw%3D/0/image.png)
->#### Photo  ![Photo](assets/images/thumb-me.jpg)
+>#### E-Mail  ![Email](assets/images/email.png)
 >#### Github @ [twonly](http://www.github.com/github "Github Link")  
 >#### Douban @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/ "Douban Link")  
 >#### Weibo @ [twonly](http://www.weibo.com/twonly "Weibo Link")
