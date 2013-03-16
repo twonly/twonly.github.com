@@ -21,17 +21,17 @@ tagline: Yu Jiongyu
 >####   2011.2 - 2011.7 &emsp; NSYSU@Taiwan &emsp; Information Engineering
 >####   2011.2 - 2011.7 &emsp; SYSU &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;Computer Science
 
-*   **English Skill: &emsp; CET-6 552 &emsp;CET-4 565**
+*   ####**English Skill: &emsp; CET-6 552 &emsp;CET-4 565**
 
 - - -
 ## IT Skill
 *   ###**Language**
     ####*   C/C++
-    ####*   php
-    ####*   python
+    ####*   PHP
+    ####*   Python
 *   ###**Research Interest** 
     ####*   Distributed System
-    ####*   Nosql
+    ####*   Nosql: Redis
     ####*   Linux/Unix
 
 - - -
