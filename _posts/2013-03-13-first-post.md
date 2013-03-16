@@ -15,3 +15,6 @@ mytitle: 第一篇日志 From Github
 再有就是 Jekyll 的 post 页面 title 是根据文件命名来决定的，因此也只能用英文，这让人很不爽。(虽说这篇的名字也包含了英文，但我不用跟我不能选择还是有差别的)毕竟，每篇文章都要想一个显得 native 又 elegent 的标题哪有那么容易，加上正文用中文的话，更加不般配。研究了下代码，自己添加个 mytitle 的 metadata ，再改下 themes 里的 post.html ，我大中文标题可以显示啦！
 
 `EOF`
+
+
+
