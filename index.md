@@ -7,8 +7,7 @@ tagline: Yu Jiongyu
 
 ## Personal Information
 
-<!--#### &emsp;Yu Jiongyu-->
-<!--#### Mobile  &nbsp;18680584004-->
+<!--#### Mobile  &nbsp;18680584004 Contact me if u see me-->
 >#### E-Mail  ![Email](assets/images/email.png)
 >#### Github @ [twonly](http://www.github.com/github "Github Link")  
 >#### Douban @ [xiaowuyi](http://www.douban.com/people/xiaowuyi/ "Douban Link")  
