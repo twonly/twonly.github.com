@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-category:  test
+category: life
 tagline: "最紧要开心"
 tags: [test]
 mytitle: 满满的一天都是累
