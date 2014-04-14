@@ -1,0 +1,264 @@
+
+
+<!DOCTYPE html>
+<html lang="en" xmlns:wb="http://open.weibo.com/wb">
+  <head>
+    <meta charset="utf-8">
+    <title>Lex And Yacc</title>
+    
+    <meta name="author" content="Yu">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/user.css"/>
+<script src="/assets/js/jquery.min.js" type="text/javascript"></script>
+
+<div class="back-to" id="toolBackTop">
+    <a title="BackToTop" onclick="window.scrollTo(0,0);return false;" href="#top" class="back-top">回到顶部</a>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+        var bt = $('#toolBackTop');
+        var sw = $(document.body)[0].clientWidth;
+
+        var limitsw = (sw - 840) / 2 - 80;
+        if (limitsw > 0){
+                limitsw = parseInt(limitsw);
+                bt.css("right",limitsw);
+        }
+
+        $(window).scroll(function() {
+                var st = $(window).scrollTop();
+                if(st > 30){
+                        bt.show();
+                }else{
+                        bt.hide();
+                }
+        });
+})
+</script>
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=" type="text/javascript" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container-narrow">
+          <a class="brand" href="/">Yu's Blog</a>
+          <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-narrow">
+
+      <div class="content">
+        
+
+<div class="page-header">
+    <!-- <h1>Lex And Yacc <small>曾经热血</small></h1> -->
+  <h1>由Lex & Yacc想起 <small>曾经热血</small></h1>
+</div>
+
+<div class="row-fluid post-full">
+  <div class="span12">
+    <div class="date">
+      <span>21 March 2013</strong>
+    </div>
+    <div class="content">
+      <p>这段时间开始找实习了，也要做简历投简历了。找个Latex模板，填上一项项形形色色自认为挺好挺不错的技能和经历，结局却可能是hr眼中十分普通就像每天都要喝的开水一般的简历，更甚者是直接被简历系统给筛选淘汰掉了。值得高兴的是，昨天发现自己的简历没有被网易游戏刷掉。</p>
+
+<p>由于提到了曾经用 Lex 和 Yacc 做过一个 Compiler，为了不幸面试时被问倒，重新找回之前的源码和文档复习了一遍。这个Project是在台湾交换时写的，至今仍能清晰的记得当时上课和做课程作业的情形。Compiler是和Lulu一起选的，当时也没啥认识的人，上课都是跟她一起上，有讨论除了TA就是她了。\ 不知道是那边的老师讲得好还是讲的简单，原本在我心目中是怪兽的Compiler，倒也不是很难。做起项目来也是热血沸腾。在图书馆借了本《Lex and Yacc》 就开始写。我得感谢NSYSU的图书馆，是她让我喜欢上了看书。书多位子多，藏书量跟东校差不多，但人却少了不止一半，台湾的朋友们真的比较不珍惜这些资源；人少环境又好，靠山面海，每天下午都能在空调房里边看书边看着西子日落，每每想起，真心想哭。到了晚上，跟其他交换生，搬个电脑，各自做各自的作业，时间到了，选几本小说带回宿舍看，棒！</p>
+
+<p>Anyway，还是回归正题吧。</p>
+
+<p>先是正则表达式，Lex里大量用到，刚刚看到，都为自己当时能写出这么长一列而感到骄傲。然后又反省了下，技术这种东西，太久不去碰了，生疏也是自然的。像要判断一个多行的注释，</p>
+
+<pre><code>\/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+\/</code></pre>
+
+<p>看到自己都头晕了。或许没有把所有状况都考虑进去，当至少尝试的测试都通过了。 再比如要判断同个Scope里是否存在重复ID，是通过一张hash表来存储，并记录多一个layer项。现在看起来似乎不难想到，但当时的项目要求并没有提及这项。有时候总为自己琢磨出来而别人没有考虑到的一个细节而沾沾自喜，大概也算乐趣的一种。</p>
+
+<p>自己心里也在掂量，每逢面试前，都把之前的东西撬出来复习一遍，算不算临时抱佛脚，甚至有点投机取巧。也许是有些这样的味道，但当我看到自己两年前写的Code，再联想起当时3人宿舍里，室友已睡，只身对着屏幕和台灯的我，</p>
+
+<p>不知道会不会有人看到这个Blog或者是这篇文章，反正都是写给自己看的，有些简历上要写自己的Blog，我也就不知廉耻的把这个新用的Blog填上去。不论内容怎样，别人一看该用户Github的活跃度，赫赫XD……</p>
+
+<p>PS:既然谈到了台湾，还是想多唠叨几句。那真是一段美好的经历，除了在学校学习，基本是从南走到北，再从北走到南。那是第一次离开现在脚下的这片土地，陌生的国度/地区开启了一趟精彩的旅程。</p>
+
+<p><code>EOF</code></p>
+    </div>
+
+  
+    <ul class="tag_box inline">
+      <li><i class="icon-folder-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/categories.html#life-ref">
+    		life <span>1</span>
+    	</a></li>
+    
+  
+
+
+    </ul>
+    
+
+  
+    <ul class="tag_box inline">
+      <li><i class="icon-tags"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#生活-ref">生活 <span>1</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/lessons/2013/03/13/jekyll-introduction" title="Jekyll Introduction">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next disabled"><a>Next &rarr;</a>
+      
+      </ul>
+    </div>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'twonly'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+</div>
+
+
+      </div>
+      <hr>
+      <footer>
+        <p>&copy; 2014 Yu
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
+
